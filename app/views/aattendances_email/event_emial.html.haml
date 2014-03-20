@@ -1,0 +1,9 @@
+# /views/user_mailer/welcome_email.html.haml
+
+!!!
+%html
+  %head
+    %meta{charset: 'utf-8', content:'text/html', 'http-equiv' => 'Content-Type'}
+  %body
+    %h1= "Otrzymałeś nowe zaproszenie,  #{@user.email}!"
+    %p= "Dziękujemy za założenie konta i życzymy udanego zbierania ekip!!"
